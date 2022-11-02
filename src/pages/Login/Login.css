@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.login-container {
+  display: flex;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.illustration-container-login {
+  width: 50vw;
+  text-align: center;
+}
+
+.login-form-container {
+  width: 50vw;
+  text-align: center;
+}
+
+.navbar-login p {
+  font-size: 3rem;
+  margin-top: 0.3em;
+  margin-left: 1em;
+  font-family: 'Dancing Script', cursive;
+}
+
+.footer-login {
+  position: absolute;
+  left: 50%;
+  bottom: 1em;
+  transform: translate(-50%, 0);
+}
+
+/* Media query */
+@media only screen and (max-width: 800px) {
+  .login-illustration {
+    width: 400px;
+  }
+
+  .login-container {
+    margin-top: 7em;
+  }
+}
+
+@media only screen and (max-width: 758px) {
+  .illustration-container-login {
+    display: none;
+  }
+
+  .login-form-container {
+    width: 100vw;
+  }
+
+  .login-container {
+    margin-top: 6em;
+  }
+
+  .navbar-login p {
+    width: fit-content;
+    margin: 0.3em auto 0 auto;
+  }
+}
